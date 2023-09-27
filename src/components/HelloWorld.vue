@@ -38,7 +38,7 @@ export default {
       this.map.addControl(new BMap.MapTypeControl());
       this.map.setCurrentCity('北京');
 
-      // 创建自定义覆盖物
+      // 创建自定义覆盖物123456
       const overlayPoint = new BMap.Point(113.297292, 23.178829); // 覆盖物所在的坐标点
       const overlayContent = '<img src="http://101.34.3.13:3000/image/ljt.png" width="32" height="32">'; // 修改为你的图片 URL
       
